@@ -116,8 +116,7 @@ section{
 	padding: 20px 20px 20px 0px;
 }
 .progresbarpad{
-	padding: 50px 100px 50px 0px;
-	align: center;
+	padding: 50px 100px 50px 100px;
 }
 .myvalue{
 	background-color:  #F2F2F1;
