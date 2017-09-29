@@ -162,10 +162,12 @@ section{
 	display: inline-block;
 	padding-right: 15px;
 	font-size: 20px;
-	border-right: 1px solid white;
+	border-right: 3px solid white;
 	margin: 15px;
 	margin-left: 0;
-
+}
+.footerbg ul li:last-child{
+	border-right: 0px;
 }
 
 input+textarea{
