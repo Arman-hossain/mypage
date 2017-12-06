@@ -173,3 +173,6 @@ section{
 input+textarea{
 	background-color: brown;
 }
+.progress{
+	border-radius:0px;
+}
