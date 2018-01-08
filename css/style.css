@@ -11,7 +11,7 @@
 	z-index: 10000;
 }
 #ar_preloader .ar_pre_half{
-	background-image: url("./images/preload_bg1.jpg");
+	background-image: url("../images/preload_bg1.jpg");
 	background-size: 100% 100%;
 	width: 50%;
 	height: 100%;
@@ -21,7 +21,7 @@
 	/*background-repeat: repeat-x;*/
 }
 #ar_preloader .ar_pre_half1{
-	background-image: url("./images/preload_bg2.jpg");
+	background-image: url("../images/preload_bg2.jpg");
 	background-size: 100% 100%;
 	width: 50%;
 	height: 100%;
