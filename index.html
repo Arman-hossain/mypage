@@ -6,16 +6,16 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
         <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-	    
+        
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -23,9 +23,10 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-	    
-	<!-- preloader start -->
-	<div id="ar_preloader">
+        
+    <!-- preloader start -->
+    <div class="container">
+        <div id="ar_preloader">
             <div id="ar_dots">
                 <!-- <h2 class="bg-primary">Welcome To My Website</h2> -->
                 <h2 class="text-info">Loading...</h2>
@@ -35,10 +36,11 @@
                 <div class="ar_dot" style="animation-name: ar_preloader_4;"></div>
             </div>
             <div id="ar_bg_left" class="ar_pre_half"></div>
-            <div id="ar_bg_right" class="ar_pre_half"> </div>
+            <div id="ar_bg_right" class="ar_pre_half1"> </div>
         </div>
-	<!-- preloader End -->
-		
+    </div>
+    <!-- preloader End -->
+        
         <div class="container-fluid">
             <div class="row">
                     <div id="carouselid" class="carousel slide carsize" data-ride="carousel">
@@ -81,15 +83,20 @@
         <nav class="navbar navbar-inverse" id="nav-top">
             <div class="container">
                 <div class="navbar-header">
+                    <button class="navbar-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#navbarfadeinout">
+                        
+                    </button>
                     <a href="#" class="navbar-brand">ARMAN</a>
                 </div>
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="">HOME</a></li>
-                    <li><a href="#myservice">SERVICES</a></li>
-                    <li><a href="#aboutbg">ABOUT</a></li>
-                    <li><a href="#myskill">SKILLS</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
+                <div class="collapse navbar-collapse" id="#navbarfadeinout">
+                    <ul class="nav navbar-nav navbar-right" >
+                        <li class="active"><a href="">HOME</a></li>
+                        <li><a href="#myservice">SERVICES</a></li>
+                        <li><a href="#aboutbg">ABOUT</a></li>
+                        <li><a href="#myskill">SKILLS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
        <div class="container-fluid servicepad" id="myservice">
@@ -190,7 +197,7 @@
                             50%
                         </div>                        
                     </div>
-		   <p>CodeIgniter</p>
+           <p>CodeIgniter</p>
                     <div class="progress">
                         <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
                             40%
@@ -220,7 +227,7 @@
             <h1 class="padingbottom">RESUME</h1>
             <button type="button" class="btn btn-success btn-lg">Click for Details</button>
         </div>
-        <div class="container-fluid bigfooter parallax" id="contact">
+        <div class="container-fluid bigfooter" id="contact">
             <div class="row">
                 <div class="col-md-6 text-justify">
                     <h1>CONTACT</h1>
@@ -233,7 +240,9 @@
                     <p><strong>Mobile : </strong>01933059518</p>
                 </div>
                 <div class="col-md-6 bigfooterR">
+                    <h3 class="text-danger" style="margin-left: -15px;">Any Question?</h3>
                     <form action="" method="post" class="form-horizontal"> 
+
                         <div class="form-group">
                           <label for="name">Name *</label>
                           <input type="text" class="form-control" id="name" required="" placeholder="Enter Your Name">

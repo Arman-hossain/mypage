@@ -1,3 +1,5 @@
+
+// Preloader fadeout and fadein
 $(document).ready(function(){
 	$('#ar_dots').delay(1600).fadeOut(300,function(){
 		$('#ar_bg_left').animate({left:'-50%'},300);

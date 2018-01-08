@@ -11,13 +11,27 @@
 	z-index: 10000;
 }
 #ar_preloader .ar_pre_half{
-	background: #111;
+	background-image: url("../images/preload_bg1.jpg");
+	background-size: 100% 100%;
 	width: 50%;
 	height: 100%;
 	position: absolute;
 	top: 0;
 	bottom: 0;
+	/*background-repeat: repeat-x;*/
 }
+#ar_preloader .ar_pre_half1{
+	background-image: url("../images/preload_bg2.jpg");
+	background-size: 100% 100%;
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	/*background-repeat: repeat-x;*/
+}
+
+
 #ar_preloader #ar_bg_left{
 	left: 0;
 }
@@ -215,7 +229,7 @@ section{
 
 .bigfooter{
 	padding: 50px 100px 50px 100px;
-	background-color: #252F31;
+	/*background-color: #252F31;*/
 }
 .bigfooter h1{
 	color: white;
@@ -228,8 +242,8 @@ section{
 }
 .bigfooterR{
 	color: white;
-	padding-top: 50px;
-	padding-left: 40px;
+	/*padding-top: 50px;*/
+	padding-left: 25px;
 }
 .footerbg{
 	background-color: #191E21;
@@ -259,3 +273,24 @@ input+textarea{
 .progress{
 	border-radius:0px;
 }
+
+#contact { 
+    /* The image used */
+    background-image: url("../images/4.jpg");
+
+    /* Full height */
+    max-height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    #contact {
+        background-attachment: scroll;
+    }
+
