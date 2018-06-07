@@ -235,6 +235,7 @@ section{
 .portfolio .thumbnail{
 	height: 250px;
 	box-shadow: 10px 10px 5px;
+	opacity: 0.6;
 }
 .portfolio .thumbnail img{
 	width: 100%;
@@ -247,8 +248,9 @@ section{
 .portfolio .thumbnail:hover{
 	/*background-color: #337AB7;*/
 	border-color: #337AB7;
-	transition: 2s;
+	transition: 1s;
 	transform: scaleY(1.1);
+	opacity: 1;
 
 }
 .myvalue{
