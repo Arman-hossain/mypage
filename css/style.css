@@ -1,3 +1,8 @@
+*{
+	
+	box-sizing: border-box;
+}
+
 /*preloader start*/
 
 #ar_preloader{
@@ -39,7 +44,7 @@
 	right: 0;
 }
 #ar_preloader #ar_dots{
-	z-index: 1000;
+	z-index: 1;
 	width: 150px;
 	position: absolute;
 	top: 50%;
@@ -51,7 +56,9 @@
 	margin: 0 0 30px 0;
 	/*color: #fff;*/
 	/*font-size: 16px;*/
+	font-weight: 600;
 	text-align: center;
+	color: tomato;
 }
 #ar_preloader #ar_dots p{
 	width: 100%;
@@ -129,7 +136,10 @@
 .pading{
 	padding: 50px 100px 50px 100px;
 }
+.myservice{
+}
 .servicepad{
+	background-color: #e6e5e5;
 	padding: 50px 80px 50px 80px;
 }
 .servicepad h1{
@@ -154,7 +164,8 @@
 	padding-bottom: 20px;
 }
 .icon .fa{
-	padding-top: 16px;
+	padding-top: 8px;
+	font-size: 30px;
 }
 .servhr{
 	width: 60px;
@@ -165,7 +176,7 @@
 	width: 100%:;
 }
 #aboutbg{
-	background-color: #F2F2F1;
+	background-color: #dad8d8;
 }
 .line-horizontal{
 	width: 40px;
@@ -212,14 +223,41 @@
 section{
 	padding: 20px 20px 20px 0px;
 }
+#myskill{
+	background-color: #cecaca;
+}
 .progresbarpad{
 	padding: 50px 100px 50px 100px;
 }
+.portfolio{
+	background-color: #C1BEBE;
+}
+.portfolio .thumbnail{
+	height: 250px;
+}
+.portfolio .thumbnail img{
+	width: 100%;
+	height: 100%;
+}
+.portfolio .thumbnail img:hover{
+	
+
+}
+.portfolio .thumbnail:hover{
+	/*background-color: #337AB7;*/
+	border-color: #337AB7;
+	transition: 2s;
+	transform: scaleY(1.1);
+
+}
 .myvalue{
-	background-color:  #F2F2F1;
+	background-color:  #ABA7A7;
 }
 .resumepad{
 	padding: 50px 200px 50px 105px;
+}
+#myresume{
+	background-color: #8F8B8B;
 }
 
 .portimgsize{
@@ -230,18 +268,14 @@ section{
 .bigfooter{
 	padding: 50px 100px 50px 100px;
 	/*background-color: #252F31;*/
-}
-.bigfooter h1{
-	color: white;
-}
-.bigfooter p{
 	color: #8D8D8F;
 }
+
 .bigfooter p strong{
 	color: white;
 }
 .bigfooterR{
-	color: white;
+	/*color: white;*/
 	/*padding-top: 50px;*/
 	padding-left: 25px;
 }
@@ -266,26 +300,46 @@ section{
 .footerbg ul li:last-child{
 	border-right: 0px;
 }
-
-input+textarea{
-	background-color: brown;
+.footerbg ul li i{
+	transition: 2s cubic-bezier(0.5, 0.31, 0.84, 0.05);
+	font-size: 30px;
 }
+.footerbg ul li i:hover{
+
+	transform: rotateY(360deg);
+}
+/*.footerbg::after{
+	left: 50%;
+	position: absolute;
+}
+.footerbg::after{
+	content: "";
+	background: url("../images/up.jpg") center center/100% no-repeat;
+	width: 200px;
+	height: 100%;
+	bottom: 0;
+	margin-left: 200px;
+	transition:.95s cubic-bezier(1,0,0,1);
+}*/
+/*input[type=text]:hover{
+	background-color: brown;
+}*/
 .progress{
 	border-radius:0px;
 }
 
 #contact { 
     /* The image used */
-    background-image: url("../images/4.jpg");
+    background-image: url("../images/images.jpg");
 
     /* Full height */
     max-height: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: 50% 50%;
+    background-position: 40% 60%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: inherit;
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
