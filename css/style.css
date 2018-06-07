@@ -234,6 +234,7 @@ section{
 }
 .portfolio .thumbnail{
 	height: 250px;
+	box-shadow: 10px 10px 5px;
 }
 .portfolio .thumbnail img{
 	width: 100%;
